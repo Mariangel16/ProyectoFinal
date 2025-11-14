@@ -1,4 +1,3 @@
-# classifier.py
 from typing import Dict, List, Tuple, Set
 import random
 
@@ -290,3 +289,4 @@ def compare_grammars(g1: Dict, g2: Dict, max_len: int = 5, max_steps: int = 6) -
         "common": common,
         "max_len": max_len,
     }
+
