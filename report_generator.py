@@ -1,4 +1,3 @@
-# report_generator.py
 from typing import Dict, List
 from reportlab.lib.pagesizes import A4
 from reportlab.pdfgen import canvas
@@ -98,3 +97,4 @@ def split_text(text: str, max_chars: int = 80):
             current.append(w)
     if current:
         yield " ".join(current)
+
