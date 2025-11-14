@@ -1,4 +1,3 @@
-# grammar_parser.py
 import re
 from typing import Dict, List, Set, Tuple
 
@@ -81,3 +80,4 @@ def parse_automaton_json(text: str) -> Dict:
         return data
     except Exception as e:
         raise ValueError(f"Error al leer el autómata en JSON: {e}")
+
